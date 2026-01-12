@@ -1,0 +1,46 @@
+CHALLENGE WALKTHROUGH:
+
+PHASE 1: Initial Analysis (Forensics)
+Players will open access_logs.csv and search for badge 5547 (the stolen badge).
+They'll find 5 DENIED entries at 23:00, confirming the narrative.
+This is a DISTRACTION.
+
+PHASE 2: Finding the Anomaly
+Smart players will notice badge 9921 (maintenance) has unusual activity:
+- 4 scans in rapid succession (8 seconds)
+- First 3 return CRC_ERROR with hex data
+- 4th scan succeeds
+
+Key insight: Why does a maintenance badge have hex data in error logs?
+
+PHASE 3: Decoding the Side Channel
+Convert the hex strings from the three CRC_ERROR entries to ASCII:
+- The hex data concatenates to spell out the flag
+- This represents a side-channel attack where data is exfiltrated through error logs
+
+Example hex decoding process:
+43 54 46 7b 73 37 6f 6c 65 6e 5f 62 69 37 73 5f 69 6e 5f 6d 31 6c 6c 65 72 5f 70 34 72 6b 7d
+→ CTF{s7olen_bi7s_in_m1ller_p4rk}
+
+PHASE 4: OSINT Connection
+Players check executive_profile.txt and find:
+- Marcus Chen runs through Miller Park
+- He mentions "my favorite spot" - a Little Free Library
+- Instagram photo shows him at library #2847
+
+PHASE 5: Finding the Flag
+Players open library_contents.txt (or access simulated web directory)
+Check "The Cuckoo's Egg" checkout card
+Last entry is the flag: s7olen_bi7s_in_m1ller_p4rk
+
+
+SOLUTION: CTF{s7olen_bi7s_in_m1ller_p4rk}
+
+
+ATTACK NARRATIVE:
+The attacker:
+1. Stole Marcus's badge but couldn't use it (biometrics/photo verification)
+2. Cloned a maintenance badge (easier target, less scrutiny)
+3. Used the badge reader's error logging as a covert channel
+4. Exfiltrated data by intentionally triggering CRC errors with encoded payloads
+5. Left a "calling card" in the Little Free Library Marcus frequents

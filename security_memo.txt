@@ -1,0 +1,25 @@
+AEROSECURE CORP - INTERNAL SECURITY MEMO
+FROM: Chief Security Officer
+TO: All Department Heads
+DATE: January 3, 2025
+RE: New Badge Protocol Implementation
+
+Effective February 1, 2025, we will be upgrading our physical access control system to use encrypted RFID badges with rolling codes. This upgrade is in response to industry best practices and recent security audits.
+
+KEY CHANGES:
+1. All badges will be replaced with new hardware
+2. Badge readers will implement AES-256 encryption
+3. Failed attempts will trigger immediate security alerts
+4. Maintenance badges will require dual authentication
+
+IMPLEMENTATION TIMELINE:
+- Week 1: Building A upgrade
+- Week 2: Building B upgrade  
+- Week 3: Building C upgrade
+- Week 4: Building D upgrade
+
+Please coordinate with your teams to schedule badge replacement appointments. Old badges will be deactivated on February 1st at 5:00 PM.
+
+Questions should be directed to security@aerosecure.corp
+
+[This memo is intentionally dated AFTER the incident to serve as a red herring]

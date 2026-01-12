@@ -1,0 +1,16 @@
+HINT SYSTEM
+
+HINT 1 (Available after 30 minutes):
+"The stolen badge is mentioned in the narrative... but what else happened at 23:05?"
+
+HINT 2 (Available after 1 hour):
+"Badge readers sometimes log raw data when errors occur. What if those errors aren't really errors?"
+
+HINT 3 (Available after 2 hours):
+"CRC_ERROR hex data can be decoded. Try converting hex to ASCII."
+
+HINT 4 (Available after 3 hours):
+"The flag mentions a location. Where does Marcus Chen spend his mornings?"
+
+HINT 5 (Final hint):
+"Little Free Library #2847. Check who last borrowed 'The Cuckoo's Egg'."

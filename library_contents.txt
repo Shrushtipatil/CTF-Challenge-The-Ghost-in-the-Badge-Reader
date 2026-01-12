@@ -1,0 +1,21 @@
+MILLER PARK LITTLE FREE LIBRARY #2847
+Digital Catalog (Simulated)
+
+Books Currently Available:
+1. "To Kill a Mockingbird" by Harper Lee
+2. "The Cuckoo's Egg" by Clifford Stoll
+3. "1984" by George Orwell
+4. "Neuromancer" by William Gibson
+5. "The Phoenix Project" by Gene Kim
+
+---
+
+CHECKOUT CARD - "The Cuckoo's Egg"
+
+Date Borrowed | Name
+-------------|------------------
+Dec 15, 2024 | Sarah M.
+Dec 28, 2024 | James Rodriguez
+Jan 02, 2025 | Emily Chen
+Jan 06, 2025 | Marcus Chen
+Jan 10, 2025 | s7olen_bi7s_in_m1ller_p4rk

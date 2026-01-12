@@ -1,0 +1,17 @@
+Testing Checklist:
+
+[ ] Verify access_logs.csv contains exactly 5,000+ entries.
+
+[ ] Confirm badge 5547 has 5 failed attempts (red herring).
+
+[ ] Verify badge 9921 has 3 CRC_ERROR entries with hex data.
+
+[ ] Test hex-to-ASCII conversion produces correct flag.
+
+[ ] Confirm executive_profile.txt mentions Miller Park.
+
+[ ] Verify library_contents.txt contains flag in checkout card.
+
+[ ] Test progressive hint system with participants.
+
+[ ] Validate flag format matches CTF platform requirements.
